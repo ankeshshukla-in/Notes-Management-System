@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use('/note', NoteRoute);
 app.use('/user', UserRouter);
-safeD
+
 
 app.use(errorHandler);
 app.use((req, res) => {
